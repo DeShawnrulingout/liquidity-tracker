@@ -1,0 +1,6 @@
+[deploy]
+startCommand = "python src/scheduler.py"
+
+[[mounts]]
+source = "data"
+destination = "/app/data"
